@@ -12,3 +12,17 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	return 0;
 }
+
+bool do_string_contain_number(const string& strInput)
+{
+	bool retValue = false;
+	if (strInput.empty())
+	{
+		retValue = false; // empty string
+	}
+	else
+	{
+		// not implemented yet
+	}
+	return retValue;
+}
